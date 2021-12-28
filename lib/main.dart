@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           );
         } else {
           return MaterialApp.router(
-						debugShowCheckedModeBanner: false,
+            debugShowCheckedModeBanner: false,
             routeInformationParser: _router.routeInformationParser,
             routerDelegate: _router.routerDelegate,
             title: 'Meeting Scheduler',
